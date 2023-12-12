@@ -1,0 +1,19 @@
+{
+  "name": "comm5-simulator",
+  "version": "1.0.0",
+  "description": "## Simulador de balanças para sistema SLoader",
+  "main": "./src/main.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/main.js",
+    "start": "node ./src/main.js"
+  },
+  "keywords": [],
+  "author": "Régis Kensy",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "net": "^1.0.2"
+  }
+}

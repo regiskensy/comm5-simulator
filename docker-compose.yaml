@@ -1,0 +1,127 @@
+services:
+  
+  balanca1:
+    image: ${IMAGEM}
+    restart: always
+    environment:
+      TIMEOUT_CONEXAO: ${TIMEOUT_CONEXAO}
+    ports:
+      - 4001:4001
+      - 5001:5000
+  
+  balanca2:
+    image: ${IMAGEM}
+    restart: always
+    environment:
+      TIMEOUT_CONEXAO: ${TIMEOUT_CONEXAO}
+    ports:
+      - 4002:4001
+      - 5002:5000
+  
+  balanca3:
+    image: ${IMAGEM}
+    restart: always
+    environment:
+      TIMEOUT_CONEXAO: ${TIMEOUT_CONEXAO}
+    ports:
+      - 4003:4001
+      - 5003:5000
+  
+  balanca4:
+    image: ${IMAGEM}
+    restart: always
+    environment:
+      TIMEOUT_CONEXAO: ${TIMEOUT_CONEXAO}
+    ports:
+      - 4004:4001
+      - 5004:5000
+  
+  balanca5:
+    image: ${IMAGEM}
+    restart: always
+    environment:
+      TIMEOUT_CONEXAO: ${TIMEOUT_CONEXAO}
+    ports:
+      - 4005:4001
+      - 5005:5000
+  
+  balanca6:
+    image: ${IMAGEM}
+    restart: always
+    environment:
+      TIMEOUT_CONEXAO: ${TIMEOUT_CONEXAO}
+    ports:
+      - 4006:4001
+      - 5006:5000
+  
+  balanca7:
+    image: ${IMAGEM}
+    restart: always
+    environment:
+      TIMEOUT_CONEXAO: ${TIMEOUT_CONEXAO}
+    ports:
+      - 4007:4001
+      - 5007:5000
+  
+  balanca8:
+    image: ${IMAGEM}
+    restart: always
+    environment:
+      TIMEOUT_CONEXAO: ${TIMEOUT_CONEXAO}
+    ports:
+      - 4008:4001
+      - 5008:5000
+  
+  balanca9:
+    image: ${IMAGEM}
+    restart: always
+    environment:
+      TIMEOUT_CONEXAO: ${TIMEOUT_CONEXAO}
+    ports:
+      - 4009:4001
+      - 5009:5000
+  
+  balanca10:
+    image: ${IMAGEM}
+    restart: always
+    environment:
+      TIMEOUT_CONEXAO: ${TIMEOUT_CONEXAO}
+    ports:
+      - 4010:4001
+      - 5010:5000
+  
+  balanca11:
+    image: ${IMAGEM}
+    restart: always
+    environment:
+      TIMEOUT_CONEXAO: ${TIMEOUT_CONEXAO}
+    ports:
+      - 4011:4001
+      - 5011:5000
+  
+  balanca12:
+    image: ${IMAGEM}
+    restart: always
+    environment:
+      TIMEOUT_CONEXAO: ${TIMEOUT_CONEXAO}
+    ports:
+      - 4012:4001
+      - 5012:5000
+  
+  balanca13:
+    image: ${IMAGEM}
+    restart: always
+    environment:
+      TIMEOUT_CONEXAO: ${TIMEOUT_CONEXAO}
+    ports:
+      - 4013:4001
+      - 5013:5000
+  
+  balanca14:
+    image: ${IMAGEM}
+    restart: always
+    environment:
+      TIMEOUT_CONEXAO: ${TIMEOUT_CONEXAO}
+    ports:
+      - 4014:4001
+      - 5014:5000
